@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "rm -rf build && npm i && tsc",
-    "dev":"concurrently \"npm run server\" \"npm run client\" "
+    "start": "node index.js"
+ 
   },
   "keywords": [],
   "author": "manal",
