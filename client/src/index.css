@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+/* font-family: 'Playfair Display', serif; */
+
+/* navbar css*/
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font: size 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px goldenrod;
+  -webkit-box-shadow: 0 8px 6px -6px goldenrod;
+  border-bottom: 0.5px solid gold !important;
+}
+.navbar a:hover {
+  color: black;
+}
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", "sans-serif";
+  letter-spacing: 2px;
+}
+
+.footer {
+  color: white;
+  padding: 20px;
+  background: linear-gradient(to right, gray, goldenrod);
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: goldenrod;
+  border-bottom: 1px solid whitesmoke;
+}
+.pnf {
+  display: flex;
+  min-height: 60vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title {
+  font-size: 10rem;
+  font-weight: 700;
+}
+
+.pnf-btn {
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.register {
+    
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, whitesmoke,gray);
+}
+.product-link{
+text-decoration:none !important;
+color:black !important
+;
+
+}
